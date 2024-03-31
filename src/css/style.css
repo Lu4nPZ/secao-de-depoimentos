@@ -1,0 +1,124 @@
+body{
+    font-family: var(--Barlow-Semi-Condensed), sans-serif;
+    background-color: var(--Light-grayish-blue);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.depoimentos{
+    display: grid;
+    grid-template-areas: "depoimento-daniel depoimento-daniel depoimento-jonathan depoimento-kira"
+                         "depoimento-jeanette depoimento-patrick depoimento-patrick depoimento-kira";
+    grid-template-columns: 250px 270px 250px 250px;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+
+.depoimento-daniel{
+    grid-area: depoimento-daniel;
+    background: url(../images/bg-pattern-quotation.svg) right 20% top no-repeat;
+    background-color: var(--Moderate-violet);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.depoimento-jonathan{
+    grid-area: depoimento-jonathan;
+    background-color: var(--Very-dark-grayish-blue);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.depoimento-jeanette{
+    grid-area: depoimento-jeanette;
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.depoimento-patrick{
+    grid-area: depoimento-patrick;
+    background-color: var(--Very-dark-blackish-blue);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.depoimento-kira{
+    grid-area: depoimento-kira;
+    background-color: var(--White);
+    border-radius: 10px;
+    padding: 25px 30px;
+}
+
+.perfil{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.perfil img{
+    border-radius: 50%;
+    max-width: 32px;
+    margin-right: 15px;
+}
+
+.border{
+    border: solid 2px rgb(167, 117, 241);
+}
+
+.info-perfil{
+    line-height: 12px;
+}
+
+.info-perfil .nome{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--White);
+}
+
+.info-perfil .nome-kira-jeanette{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.info-perfil .verified{
+    font-size: 11px;
+    color: var(--White);
+    opacity: 50%;
+}
+
+.info-perfil .verified-kira-jeanette{
+    font-size: 11px;
+    opacity: 70%;
+}
+
+.info .titulo{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--White);
+    margin-bottom: 15px;
+}
+
+.info .titulo-kira-jeanette{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.info .depoimento{
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--White);
+    opacity: 50%;
+}
+
+.info .depoimento-kira-jeanette{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 70%;
+}

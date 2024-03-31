@@ -1,0 +1,35 @@
+@media(max-width: 1024px){
+    .depoimentos{
+        grid-template-columns: 225px 235px 225px 225px;
+    }
+}
+
+@media(max-width: 768px){
+    body{
+        background-color: var(--Light-gray);
+    }
+
+    .depoimentos{
+        display: flex;
+        flex-direction: column;
+        margin: 500px 100px 0;
+    }
+}
+
+@media(max-width: 425px){
+    .depoimentos{
+        margin: 800px 20px 0;
+    }
+}
+
+@media(max-width: 375px){
+    .depoimentos{
+        margin: 900px 20px 0;
+    }
+}
+
+@media(max-width: 320px){
+    .depoimentos{
+        margin: 1150px 20px 0;
+    }
+}
